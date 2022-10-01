@@ -1,0 +1,88 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(212, 228, 239) no-repeat;
+    background: -moz-linear-gradient(-45deg, rgb(212, 228, 239) 0%, rgb(134, 174, 204) 100%) no-repeat;
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgb(212, 228, 239)), color-stop(100%, rgb(134, 174, 204))) no-repeat;
+    background: -webkit-linear-gradient(-45deg, rgb(212, 228, 239) 0%, rgb(134, 174, 204) 100%) no-repeat;
+    background: -o-linear-gradient(-45deg, rgb(212, 228, 239) 0%, rgb(134, 174, 204) 100%) no-repeat;
+    background: -ms-linear-gradient(-45deg, rgb(212, 228, 239) 0%, rgb(134, 174, 204) 100%) no-repeat;
+    background: linear-gradient(135deg, rgb(212, 228, 239) 0%, rgb(134, 174, 204) 100%) no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1);
+}
+
+.popup {
+    font-size: 13px;
+    padding: 20px 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+input{
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 270px;
+    height: 35px;
+    border-radius: 7px;
+    border: 1px solid #777;
+    outline: none;
+
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=checkbox]{
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+} 
+
+.popup h1{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.popup button{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid rgb(52, 29, 182);
+    border-radius: 5px;
+    background: rgb(52, 29, 182);
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.popup button:hover{
+    background: #fff;
+    border: 1px solid rgb(52, 29, 182);
+    color: #000;
+}
+
+.popup a{
+    color: rgb(52, 29, 182);
+    font-size: 14px;
+}
+
